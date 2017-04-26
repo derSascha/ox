@@ -147,7 +147,7 @@ static struct _Hint	html_hint_array[] = {
     { "track", true, false, false, ActiveOverlay, audio_video_0 },
     { "tt", false, false, false, ActiveOverlay, NULL },
     { "u", false, false, false, ActiveOverlay, NULL },
-    { "ul", false, false, false, ActiveOverlay, NULL },
+    { "ul", false, true, false, ActiveOverlay, NULL },
     { "var", false, false, false, ActiveOverlay, NULL },
     { "video", false, false, false, ActiveOverlay, NULL },
     { "wbr", true, false, false, ActiveOverlay, NULL },
