@@ -3,6 +3,7 @@ language: ruby
 rvm:
   - 2.3.3
 
+
 before_script:
   - gem build ox.gemspec
   - gem install ox-*
